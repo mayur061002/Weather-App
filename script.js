@@ -20,7 +20,7 @@ search.addEventListener('click', () =>{
             error404.style.display = 'block';
             error404.classList.add('fadeIn');
             return;
-        }
+        };
 
         error404.style.display = 'none';
         error404.classList.remove('fadeIn');
@@ -58,7 +58,7 @@ search.addEventListener('click', () =>{
 
             default:
                 image.src = 'img/404.png';
-        }   
+        };
 
 
         temperature.innerHTML = `${parseInt(json.main.temp)}<span>°C</span>`;
@@ -72,8 +72,9 @@ search.addEventListener('click', () =>{
         weatherDetails.classList.add('fadeIn');
         container.style.height = '590px';
 
-    })
-})
+    });
+
+});
 
  
 
